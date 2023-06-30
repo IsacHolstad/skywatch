@@ -10,7 +10,7 @@ function Home() {
             console.log(uvData)
         }
         catch (error) {
-            console.log(error)
+            console.log("error here:", error)
         }
 
     }
