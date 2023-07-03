@@ -42,7 +42,7 @@ export default function Navigation() {
                                         className={classNames(
                                             item.current
                                                 ? 'bg-indigo-700 text-white'
-                                                : 'text-indigo-200 hover:text-white hover:bg-indigo-700',
+                                                : 'text-indigo-500 hover:text-white hover:bg-indigo-700',
                                             'group flex gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold'
                                         )}
                                     >
