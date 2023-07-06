@@ -49,7 +49,7 @@ export default function Navigation() {
                                         <item.icon
                                             className={classNames(
                                                 item.current ? 'text-white' : 'text-indigo-200 group-hover:text-white',
-                                                'h-6 w-6 shrink-0'
+                                                'h-10 w-10 shrink-0'
                                             )}
                                             aria-hidden="true"
                                         />
