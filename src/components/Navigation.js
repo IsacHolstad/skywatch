@@ -12,8 +12,7 @@ const navigation = [
     { name: 'Team', href: '#', icon: UsersIcon, current: false },
     { name: 'Projects', href: '#', icon: FolderIcon, count: '12', current: false },
     { name: 'Calendar', href: '#', icon: CalendarIcon, count: '20+', current: false },
-    { name: 'Documents', href: '#', icon: DocumentDuplicateIcon, current: false },
-    { name: 'Reports', href: '#', icon: ChartPieIcon, current: false },
+
 ]
 const teams = [
     { id: 1, name: 'Heroicons', href: '#', initial: 'H', current: false },
@@ -56,7 +55,7 @@ export default function Navigation() {
                                         {item.name}
                                         {item.count ? (
                                             <span
-                                                className="ml-auto w-10 min-w-max whitespace-nowrap rounded-full bg-indigo-600 px-2.5 py-0.5 text-center text-xs font-medium leading-5 text-white ring-1 ring-inset ring-indigo-500"
+                                                className="ml-auto w-10 min-w-max whitespace-nowrap rounded-full bg-indigo-600 px-2.5 py-2 text-center text-xs font-medium leading-5 text-white ring-1 ring-inset ring-indigo-500"
                                                 aria-hidden="true"
                                             >
                         {item.count}
