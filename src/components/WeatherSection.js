@@ -1,5 +1,8 @@
 const people = [
     { place: 'Oslo s 🇳🇴 ', title: '21 🔆 ' },
+    { place: 'Bergen 🇳🇴', title: '18 🔆'},
+    { place: 'Tromsø 🇳🇴', title: '20 🔆'},
+    { place: 'Bodø 🇳🇴', title: '19 🔆'}
     // More people...
 ]
 
