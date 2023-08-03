@@ -2,7 +2,12 @@ const people = [
     { place: 'Oslo s 🇳🇴 ', title: '21 🔆 ' },
     { place: 'Bergen 🇳🇴', title: '18 🔆'},
     { place: 'Tromsø 🇳🇴', title: '20 🔆'},
-    { place: 'Bodø 🇳🇴', title: '19 🔆'}
+    { place: 'Bodø 🇳🇴', title: '19 🔆'},
+    { place: 'Siggerud 🇳🇴', title: '10 🔆'},
+    { place: 'Bodø 🇳🇴', title: '12 🔆'},
+    { place: 'Findmark 🇳🇴', title: '9 🔆'},
+    { place: 'Stavanger 🇳🇴', title: '19 🔆'},
+
     // More people...
 ]
 
