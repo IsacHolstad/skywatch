@@ -11,6 +11,8 @@ const people = [
     { place: 'Langhus 🇳🇴', title: '19 🔆'},
     { place: 'Ski 🇳🇴', title: '19 🔆'},
     { place: 'Geilo 🇳🇴', title: '19 🔆'},
+    { place: 'Stavern 🇳🇴', title: '19 🔆'},
+    { place: 'Kautokeino 🇳🇴', title: '200 🔆'},
 
     // More people...
 ]
