@@ -3,7 +3,7 @@ const navigation = {
         { name: 'Marketing', href: '#' },
         { name: 'Analytics', href: '#' },
         { name: 'Commerce', href: '#' },
-        
+
     ],
     support: [
         { name: 'Pricing', href: '#' },

@@ -26,9 +26,9 @@ function classNames(...classes) {
 
 export default function Navigation() {
     return (
-        <div className="flex grow flex-col gap-y-5 overflow-y-auto bg-indigo-600 px-6">
+        <div className="flex grow flex-col gap-y-5 overflow-y-auto bg-black px-6">
             <div className="flex h-16 shrink-0 items-center">
-                <img className="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=white" alt="Your Company" />
+                <div className="h-8 w-auto">☁️</div>
             </div>
             <nav className="flex flex-1 flex-col">
                 <ul role="list" className="flex flex-1 flex-col gap-y-7">
