@@ -1,7 +1,5 @@
 import {
     CalendarIcon,
-    ChartPieIcon,
-    DocumentDuplicateIcon,
     FolderIcon,
     HomeIcon,
     UsersIcon,
