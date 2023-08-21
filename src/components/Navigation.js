@@ -6,9 +6,9 @@ import {
 } from '@heroicons/react/24/outline'
 
 const navigation = [
-    { name: 'Dashboard', href: '#', icon: HomeIcon, count: '5', current: true },
+    { name: 'Locations', href: '#', icon: HomeIcon, count: '5', current: true },
     { name: 'Team', href: '#', icon: UsersIcon, current: false },
-    { name: 'Projects', href: '#', icon: FolderIcon, count: '12', current: false },
+    { name: 'Danger zones', href: '#', icon: FolderIcon, count: '12', current: false },
     { name: 'Calendar', href: '#', icon: CalendarIcon, count: '20+', current: false },
 
 ]
@@ -24,7 +24,7 @@ function classNames(...classes) {
 
 export default function Navigation() {
     return (
-        <div className="flex grow flex-col gap-y-5 overflow-y-auto bg-black px-6">
+        <div className="flex grow flex-col gap-y-5 overflow-y-auto bg-blue-900 px-6">
             <div className="flex h-16 shrink-0 items-center">
                 <div className="h-8 w-auto">☁️</div>
             </div>
@@ -38,7 +38,7 @@ export default function Navigation() {
                                         href={item.href}
                                         className={classNames(
                                             item.current
-                                                ? 'bg-indigo-700 text-white'
+                                                ? 'bg-indigo-500 text-white'
                                                 : 'text-indigo-500 hover:text-white hover:bg-indigo-700',
                                             'group flex gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold'
                                         )}

@@ -3,6 +3,7 @@ import Navigation from "./components/Navigation";
 import Footer from "./components/Footer"
 import CreatorsSection from "./components/CreatorsSection";
 import WeatherSection from "./components/WeatherSection";
+import Support from "./components/Support";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Navigation/>
         <CreatorsSection/>
         <WeatherSection/>
+        <Support/>
       <Footer/>
     </>
   );
